@@ -3,16 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Tool</title>
 </head>
 <body>
-    <h1>
-        Git hub Tool
+    <nav>
+        <a href="./index.php">
+            home 
+        </a>
+        <a href="">
+            Documentation
+        </a>
+        <a href="">
+            Contact
+        </a>
+    </nav>
+    <hr>
+
+   <div class="animation">
+        <h1>
+            Welcome To Git_Actions
         
-    </h1>
-    <p>commit you want ?</p>
-    <form action="index.php" method="post">
-       <p>commit I give <input type="number" name="number" id="number"> <input type="submit" value="Enter"></p>
-    </form>
+        </h1>
+   </div>
+    <h2>
+        What is the Use Case ?
+    </h2>
+    <p>
+        Large code bases can be hard to maintaine and manage. using our tool it makes easy to track and manage.<br>
+        the projects saving use from git rebase and git pulls
+        where everthing is automated.
+    </p>
+    <p>
+       <b>Demonstration Video</b> 
+    </p>
+    <video src=""></video>
 </body>
 </html>
