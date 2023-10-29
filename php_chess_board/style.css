@@ -1,0 +1,8 @@
+*{
+	padding:5px;
+}
+.item_red{
+	border: 2px soild black;
+	border-radius: 3px;
+	background-color: red;
+}
