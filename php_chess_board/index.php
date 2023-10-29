@@ -12,6 +12,9 @@
 					if(($i+$j)%2==0){
 						echo '<div class="item_red"></div>';
 					}
+					else{
+						echo '<div class="item_blue"></div>';
+					}
 					
 				}
 				echo "<br>";
