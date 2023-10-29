@@ -6,3 +6,12 @@
 	display: flex;
 	padding: 10px;
 }
+.prime{
+	border: 2px soild red;
+	background-color: blue;
+}
+.notPrime{
+	border: 2px soild red;
+	background-color: green;
+}
+
