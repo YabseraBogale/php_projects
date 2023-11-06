@@ -12,7 +12,13 @@
 	</html>
 <?php
 	// git add . && git commit -m "php ok" && git push
-	if(isset($_FILES['doc'])){
+		echo phpinfo();
+?>
+
+
+<?
+	/*
+	 * if(isset($_FILES['doc'])){
       $errors= array();
       $file_name = $_FILES['doc']['name'];
       $file_size =$_FILES['doc']['size'];
@@ -34,4 +40,6 @@
          print_r($errors);
       }
    }
+	 * 
+	 * */
 ?>
