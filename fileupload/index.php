@@ -11,6 +11,7 @@
 		</body>
 	</html>
 <?php
+	// git add . && git commit -m "php ok" && git push
 	if(isset($_FILES['doc'])){
       $errors= array();
       $file_name = $_FILES['doc']['name'];
