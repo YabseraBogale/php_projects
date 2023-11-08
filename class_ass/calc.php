@@ -7,8 +7,8 @@
 	<body>
 		<form method="post">
 			<?php
-				foreach($numbers as $i){
-					echo "<button>$i<button>";
+				for($i=0;$i<3;$i++){
+					echo "<button>$numbers[$i]</button>";
 				}
 				
 			?>
