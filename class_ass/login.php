@@ -9,11 +9,11 @@ session_start();
 		<body>
 			<?php 
 			if($_Post["submit"]){
-				$userdata=$_Post["username/email"];
-				$password=$_Post["password"];
-				$_Session["username/email"]=$userdata;
-				$_Session["pd"]=$password;
-				echo "logged in";
+				
+				$_Session["username/email"]="in";
+				$_Session["pd"]="pd";
+				
+			}
 		?>	
 			<?
 			 else{
