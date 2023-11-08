@@ -26,19 +26,19 @@
 						<button value="6" name="1">6</button>
 					</div>
 					<div class="f3">
-						<button value="7">7</button>
-						<button value="8">8</button>
-						<button value="9">9</button>
+						<button value="7" name="1">7</button>
+						<button value="8" name="1">8</button>
+						<button value="9" name="1">9</button>
 					</div>
 					<div class="f4">
-						<button value="0">0</button>
-						<button value="+">+</button>
-						<button value="-">-</button>
+						<button value="0" name="1">0</button>
+						<button value="+" name="1">+</button>
+						<button value="-" name="1">-</button>
 					</div>
 					<div class="f5">
-						<button value="/">/</button>
-						<button value="*">*</button>
-						<button value="√">√x</button>
+						<button value="/" name="1">/</button>
+						<button value="*" name="1">*</button>
+						<button value="√" name="1">√x</button>
 					</div>
 				</div>
 				<input type="submit" value="Enter">
