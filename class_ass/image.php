@@ -16,10 +16,11 @@
 						foreach($page as $key=>$value){
 							?>
 							<li><a href="./<?php
-								$value
+								echo $value;
 							?>"><?php
 							echo $key;
 							?>
+							</a></li>
 							<?php
 						}
 					?>
