@@ -11,6 +11,7 @@
 						'signup'=>'sign.php'];
 			?>
 			<nav>
+				<h3>Welcome</h3>
 				<ul>
 					<?php
 						foreach($page as $key=>$value){
