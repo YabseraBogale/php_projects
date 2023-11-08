@@ -16,14 +16,14 @@
 			<form method="post" action ="./calculator.php">
 				<div class="look">
 					<div class="f1">
-						<button value="1">1</button>
-						<button value="2">2</button>
-						<button value="3">3</button>
+						<button value="1" name="1">1</button>
+						<button value="2" name="1">2</button>
+						<button value="3" name="1">3</button>
 					</div>
 					<div class="f2">
-						<button value="4">4</button>
-						<button value="5">5</button>
-						<button value="6">6</button>
+						<button value="4" name="1">4</button>
+						<button value="5" name="1">5</button>
+						<button value="6" name="1">6</button>
 					</div>
 					<div class="f3">
 						<button value="7">7</button>
