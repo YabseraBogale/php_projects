@@ -9,7 +9,10 @@
 				
 			 ?>
 			<div class="form">
-			<div class="result"></div>
+			<div class="result">
+			<?php
+				echo "$result";
+			?></div>
 			<form method="post" action ="./calculator.php">
 				<div class="look">
 					<div class="f1">
@@ -35,12 +38,13 @@
 					<div class="f5">
 						<button value="/">/</button>
 						<button value="*">*</button>
-						<button value="srt">sqrt</button>
+						<button value="√">√x</button>
 					</div>
 				</div>
 				<input type="submit" value="Enter">
 				<input type="reset" value="Cancel">
 			</form>
 			</div>
+			<script src="./calculator_static/app.js"></script>
 		</body>
 	</html>
