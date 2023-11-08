@@ -45,6 +45,12 @@
 				<input type="reset" value="Cancel">
 			</form>
 			</div>
-			<script src="./calculator_static/app.js"></script>
 		</body>
 	</html>
+
+<?php
+	switch(){
+		
+	}
+
+?>
