@@ -1,51 +1,45 @@
-<?php
-session_start();
-?>
 <html>
-	<head>
-		<link rel="stylesheet" href="./login.css">
-		<title>Log in</title>
-		</head>
-		<body>
-			<?php 
-			if($_Post["submit"]){
-				
-				$_Session["username/email"]="in";
-				$_Session["pd"]="pd";
-				
+<head>
+	<title>
+		Login Page
+		</title>
+</head>
+<?php
+	session_start();
+	if(isset($_SESSION['username'])){
+		$loggedinUser=$_SESSION['username'];
+		echo "Welcome $loggedinUser you are logged in";
+		echo "<br> <a href='logout.php'>logout</a>";
+	} else{
+		if(isset($_POST['login'])){
+			$username=$_POST['username'];
+			$password=$_POST['password'];
+			if($username === "admin" && $password === "password"){
+					$_SESSION['username']=$username;
+					header('Location:login.php');
+					exit;
 			}
-		?>	
-			<?
-			 else{
-			?>
-			<form method="post" action="./login.php">
-				<table>
-					<tr>
-						<td>
-							Username/Email
-						</td>
-						<td>
-							<input type="text" name="username/email"/>
-						</td>
-						</tr>
-						<tr>
-						<td>
-							password
-						</td>
-						<td>
-							<input type="password" name="username/email"/>
-						</td>
-						</tr>
-						<tr>
-						<td>
-							<input type="submit" value="Submit" name="submit">
-							<input type="reset" value="Cancel"/>
-						</td>
-						</tr>
-				</table>
-			</form>
-			<?
-				}
-			?>
-			</body>
-	</html>
+			else{
+
+				echo "Invalid Username or password";
+			}
+		}
+		else{
+				echo "
+					<form method='POST' action='login.php'>
+						<p>
+							Enter username <input type='text' name='username'>
+						</p>
+						<p>
+							Enter password <input type='password' name='password'>
+						</p>
+						<p>
+							<input type='submit' name='login' value='Login'>
+						</p>
+					</form>
+				";
+
+			}
+	}
+?>
+</html>
