@@ -11,27 +11,8 @@
 				$json_data=json_decode($json,true);
 				foreach($json_data as $key=>$value){
 					?>
-						
-						<br>
-						<div class="array"><?php 
-							foreach($value as $_key=>$_value){
-								?>
-	
-								<br>
-								<p><?php 
-									if($_value["message"]!=""){
-										?>
-										<h5><?php echo $_key;?></h5>
-										<?php
-										echo $_value["message"];
-									}
-								
-								?></p>
-								<br>
-								<?php
-							}
-						?></div>	
-						<br>
+						<p><?php echo var_dump(); ?></p>
+						<br>						
 					<?php		
 				}
 			?>
