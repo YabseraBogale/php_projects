@@ -1,3 +1,5 @@
+
+// this worked fine but the time-space complexity kills the pc with its n^2
 <html>
 	<head>
 		<link rel="stylesheet" href="./style.css">
