@@ -5,7 +5,7 @@
 		</head>
 		<body>
 			<?php
-				$json=file_get_contents('smu_cs_club_messages.json');
+				$json=file_get_contents('freelance_ethio_messages.json');
 				$json_data=json_decode($json,true);
 				foreach($json_data as $key=>$value){
 					?>
