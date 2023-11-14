@@ -14,11 +14,9 @@
 				foreach($json_data["messages"] as $key=>$value){
 					?>
 						<p><?php 
-							if(substr($json_data["messages"][$key]["message"],"#Software_design_and_Development")>0){
+							if(substr_count($json_data["messages"][$key]["message"],"#Software_design_and_Development")>0){
 								echo $json_data["messages"][$key]["message"];
-							} else{
-								echo $json_data["messages"][$key]["message"];
-							}
+							} 
 						
 						 ?></p>
 						<br>						
