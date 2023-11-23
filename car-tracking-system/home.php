@@ -8,7 +8,18 @@
 <body>
     <nav>
         <ul>
-            
+            <?php
+                $pages=[
+                    ['home'=>'home.php'],
+                    ['login'=>'login.php'],
+                    ['regsister'=>'regsister.php'],
+                ];
+                foreach($pages as $page){
+                    ?>
+                    <li><a href="<?php echo $page['home']; ?>"><?php echo ?></a></li>
+                    <?php
+                }
+            ?>
         </ul>
     </nav>
 </body>
