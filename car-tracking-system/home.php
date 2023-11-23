@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav>
-        <ul>
+        <ul class="nav">
             <?php
                 $pages=[
                     ['home'=>'home.php'],
@@ -18,7 +18,7 @@
                 foreach($pages as $page){
                     foreach($page as $key=>$value){
                         ?>
-                        <li><a href="<?php echo $value?>"><?php echo $key;?></a></li>
+                        <li class="navli"><a href="<?php echo $value?>"><?php echo $key;?></a></li>
                         <?php
                     }
                 }
