@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
     <title>Home</title>
 </head>
 <body>
@@ -15,9 +16,11 @@
                     ['regsister'=>'regsister.php'],
                 ];
                 foreach($pages as $page){
-                    ?>
-                    <li><a href="<?php echo $page['home']; ?>"><?php echo ?></a></li>
-                    <?php
+                    foreach($page as $key=>$value){
+                        ?>
+                        <li><a href="<?php echo $value?>"><?php echo $key;?></a></li>
+                        <?php
+                    }
                 }
             ?>
         </ul>
