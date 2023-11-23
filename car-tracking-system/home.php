@@ -8,13 +8,7 @@
 <body>
     <nav>
         <ul>
-            <?php
-                $page=[
-                    [],
-                    [],
-                    [],
-                ]
-            ?>
+            
         </ul>
     </nav>
 </body>
