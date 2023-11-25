@@ -9,6 +9,11 @@ create table User(
 
 create table location(
 
+     -- thinking of making it varchar with 15 charaters with 0-9a-zA-Z
+    DriverId int not null,
+    latitude float not null,
+    longitude float not null,
+    PlateNumberId int not null,
    
 );
 
