@@ -5,10 +5,12 @@ create table Car(
     CurrentLocation json not null,
     Destination json not null,
     Departure json not null,
-    DriverId int not null,
+    DriverId int not null
 )
 create table Driver(
     FirstName varchar(30) not null,
     LastName varchar(30) not null,
-
+    PhoneNumber int(12) not null,
+    Gender varchar(1) not null,
+    BloodType varchar(1) not null
 )
