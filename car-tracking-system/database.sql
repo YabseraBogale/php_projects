@@ -8,6 +8,8 @@ create table Car(
     DriverId int not null
 )
 create table Driver(
+    Id int not null,
+    NumberOfCar int null,
     FirstName varchar(30) not null,
     LastName varchar(30) not null,
     PhoneNumber int(12) not null,
