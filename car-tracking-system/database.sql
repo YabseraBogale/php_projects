@@ -7,3 +7,8 @@ create table Car(
     Departure json not null,
     DriverId int not null,
 )
+create table Driver(
+    FirstName varchar(30) not null,
+    LastName varchar(30) not null,
+
+)
