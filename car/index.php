@@ -1,6 +1,6 @@
 <?php
-    require("./Model/header.php");
-    $head=new HeaderModel();
-    echo $head.Nav();
+    require("/home/yabsera/Documents/Github/php_projects/car/Model/header.php");
+    $h=new HeaderModel();
+    echo $h.Nav();
 
 ?>
