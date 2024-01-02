@@ -2,7 +2,7 @@
 class Head{
 
     public function __Constructor(){}
-    public function Navigation(){
+    function Navigation(){
         ?>
         <nav>
             <a>
