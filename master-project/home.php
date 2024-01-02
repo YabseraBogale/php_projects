@@ -11,5 +11,18 @@
         <a href="">Home</a>
         <a href="">Login</a>
     </nav>
+    <div class="main">
+    <div class="sidebar">
+        <ul>
+            <li>
+                lore3
+                
+            </li>
+        </ul>
+    </div>
+    <div class="body">
+        content
+    </div>
+    </div>    
 </body>
 </html>
