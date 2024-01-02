@@ -1,6 +1,7 @@
 <?php
 class Head{
 
+    public function __Constructor(){}
     public function Navigation(){
         ?>
         <nav>
