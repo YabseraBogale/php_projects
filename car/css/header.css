@@ -9,10 +9,18 @@
 .sidebar{
     display: flex;
     flex-direction: column;
+    border: 4px solid black;
+    margin-right: 80%;
+    padding: 10px;
+    background-color: aqua;
     
 }
-.item1>.item2>.item3>.item4{
-
-    paddinf: 3px;
-
+a{
+    padding: 15px;
+    text-decoration: none;
+    color: blue;
+    border: 2px solid blanchedalmond;
+}
+.main{
+    
 }
