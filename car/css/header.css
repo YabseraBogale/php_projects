@@ -1,8 +1,18 @@
-<?php
-    class HeaderModel{
-        function Nav(){
-           return "Hello";
-        }
-    }
+.mainbar{
+    display: flex;
+    padding: 2px;
+    
+}
+.iconsetting{
+    margin-left: 80%;   
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    
+}
+.item1>.item2>.item3>.item4{
 
-?>
+    paddinf: 3px;
+
+}
