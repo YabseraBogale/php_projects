@@ -1,6 +1,9 @@
 function Sidebar(){
     let sidebar=document.getElementById("btn-sidebar")
-    sidebar.style.display="none"
-    console.log(sidebar.style.display)
+    if(sidebar.style.display=="none"){
+        sidebar.style.display="inline"
+    } else{
+        sidebar.style.display="none"
+    }
 
 }
