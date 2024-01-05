@@ -1,5 +1,6 @@
-function SideBar(){
+function Sidebar(){
     let sidebar=document.getElementById("btn-sidebar")
-    console.log(sidebar.style.display())
+    sidebar.style.display="none"
+    console.log(sidebar.style.display)
 
 }
