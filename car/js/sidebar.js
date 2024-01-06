@@ -5,5 +5,4 @@ function Sidebar(){
     } else{
         sidebar.style.display="none"
     }
-
 }

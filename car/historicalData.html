@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search</title>
+    <title>Historical Data</title>
 </head>
 <body>
     <div class="main">
@@ -21,24 +21,27 @@
                 <a href="">Location</a>
                 <a href="">Historical Data</a>
             </div>
-            <div class="Search">
-                <h2>Search</h2>
+            <div class="data">
                 <form action="" method="post">
-                    <table>
-                        <tr>
-                            <td>
-                                <input type="text" name="search" id="" placeholder="platenumber or driver name">
-                            </td>
-                            <td>
-                                <input type="submit" value="Enter">
-                            </td>
-                            <td>
-                                This is where the map sould be
-                            </td>
-                        </tr>
-                    </table>
+                    <p><b>filter</b> <input type="text" name="filter" id=""> <input type="submit" value="enter"></p>
                 </form>
-            </div>            
+                <table>
+                    <tr>
+                        <td>
+                            Name
+                        </td>
+                        <td>
+                            Description
+                        </td>
+                        <td>
+                            Status
+                        </td>
+                        <td>
+                            Kilo Mete(km) 
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
     <script src="./js/sidebar.js"></script>
